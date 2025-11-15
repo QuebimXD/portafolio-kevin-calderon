@@ -259,6 +259,26 @@ a:hover {
   border: 1px solid rgba(56, 189, 248, 0.4);
   font-size: 0.9rem;
 }
+.advanced-skills {
+  margin-top: 2.5rem;
+}
+
+.advanced-skills-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  color: #cbd5f5;
+  font-weight: 600;
+}
+
+.advanced-skills-list {
+  padding-left: 1.2rem;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+
+.advanced-skills-list li::marker {
+  color: var(--color-primary); /* puntito celeste */
+}
 
 /* ========== PROYECTOS ========== */
 .projects-grid {
