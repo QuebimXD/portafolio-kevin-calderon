@@ -280,6 +280,23 @@ a:hover {
   color: var(--color-primary); /* puntito celeste */
 }
 
+.soft-skills-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  color: #cbd5f5;
+  font-weight: 600;
+}
+
+.soft-skills-list {
+  padding-left: 1.2rem;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+
+.soft-skills-list li::marker {
+  color: var(--color-primary); /* puntito celeste */
+}
+
 /* ========== PROYECTOS ========== */
 .projects-grid {
   display: grid;
